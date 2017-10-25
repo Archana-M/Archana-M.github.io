@@ -1,0 +1,465 @@
+header{
+	color: #fff;
+	height: 60px;
+	width: 100%;
+	line-height: 60px;
+	position: fixed;
+	z-index: 100;
+}
+
+header nav{
+	float: right;
+}
+
+header nav ul li{
+	padding-left: 30px;
+
+}
+
+header nav ul li a{
+	color: #fff;
+	transition: all 0.4s ease-in;
+	-webkit-transition: all 0.4s ease-in;
+	-moz-transition: all 0.4s ease-in;
+	-o-transition: all 0.4s ease-in;
+}
+
+header nav ul li a:hover{
+	color: red;
+	text-decoration: none;
+}
+
+
+.logo{
+	float: left;
+	padding-right: 30px;
+	margin: 5px;
+	color: #fff;
+	font-size: 2em;
+
+}
+
+.logo:hover{
+	color: #fff;
+	text-decoration: none;
+}
+
+/* banner section */
+
+.banner {
+	margin-top: 0px;
+	background-image: url("../images/backGround.jpg");
+	text-align: center;
+	color: #fff;
+	background-repeat: none;
+	background-size: 100% 100%;
+	width: 100%;
+	min-height: 500px;
+
+}
+
+.banner h1{
+	margin: 0px;
+	padding: 200px 0 30px 0;
+
+}
+
+.banner p{
+	padding-bottom: 30px;
+	font-size: 1.2em;
+
+}
+
+.banner a{
+	
+	color: #fff;
+	/*border-radius: 5px;*/
+	font-size: 1.5em;
+
+}
+
+.banner a.cta1:hover{
+	background-color: #ff695a;
+	border-radius: 5px;
+}
+
+.banner a.cta2:hover{
+	background-color: #3f9cfa;
+	border-radius: 5px;
+}
+
+.hero{
+	background: rgba(0,0,0,0.7);
+	width: 100%;
+	min-height: 500px;
+  	-webkit-font-smoothing: antialiased;
+	text-rendering: optimizelegibility;
+}
+.hero-button{
+	background-color: transparent;
+	border: 2px solid white;
+	border-radius: 5px;
+	padding: 15px;
+	font-size: 1.5em;
+	font-weight: bolder;
+}
+
+.hero-button:hover{
+	color: #ec4d40;
+	border: 2px solid #ec4d40;
+}
+
+.hero-button:focus{
+	color: #ec4d40;
+	border: 2px solid #ec4d40;
+}
+
+.btn-linkedin{
+			color: #007bb6;
+			font-size: 1.5em;
+		}
+
+.btn-github{
+			color: black;
+			font-size: 1.5em;
+		}
+
+/* INTRO */
+
+.intro{
+	font-size: 24px;
+	text-align: center;
+}
+
+.c-work{
+	margin: 25px;
+	padding: 0 50px;
+	color: #fff;
+	border-radius: 10px;
+	font-weight: normal;
+ 
+}
+
+.c-work:hover{
+	background-color: #0073aa;
+	border-radius: 0px;
+}
+
+/* SERVICES */
+
+.services-hero{
+	text-align: center;
+	background-image: url(../images/services.jpg);
+	background-attachment: fixed;
+	background-size: 100% 100%;
+	background-repeat: none;
+	width: 100%;
+	min-height: 500px;
+	color: #fff;
+}
+
+.services{
+	background: rgba(0,0,0,0.5);
+	min-height: 500px;
+}
+
+.fa-wordpress{
+	color: #fff;
+}
+
+.services-content h3{
+	font-weight: bolder;
+}
+.services .services-content i{
+	font-size: 30px;
+	color: #555;
+}
+
+.services-heading, .portfolio-heading, .contact-heading, .about-heading{
+	margin-bottom: 60px;
+	text-align: center;
+}
+
+.learn-button{
+	background-color: transparent;
+	border: 2px solid white;
+	border-radius: 5px;
+	padding: 5px;
+}
+
+.learn-button:hover{
+	color: #ec4d40;
+	border: 2px solid #ec4d40;
+}
+
+/* About ME*/
+
+.about-content{
+	font-size: 1.1em;
+	line-height: 34px;
+}
+
+/* Contact */
+.contact{
+	
+}
+
+.contact-bg{
+
+	background-image: url("../images/contact-bg.jpg");	
+	background-repeat: none;
+	background-size: 100% 100%;
+	-webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    min-height: 100%;
+	
+	
+}
+
+form{
+	width: 30%;
+	margin: 0 auto;
+}
+
+
+label {
+  display: block;
+  margin-bottom: 1em;
+}
+
+input {
+  font-size: 1em;
+  
+}
+
+input.full {
+  width: 99%;
+}
+
+.submit{
+	margin: 0 auto;
+	/*display: block;*/
+	text-align: center;
+}
+
+/* FOOTER*/
+
+footer{
+	margin-top: 46px 0;
+}
+footer h2{
+	margin-bottom: 20px;
+}
+
+footer p i{
+	color: #ec4d40;
+}
+footer p span{
+	padding-left: 15px;
+	font-weight: bold;
+}
+
+
+.copyright{
+	background-color: #000;
+	color: #fff;
+	height: 45px;
+	line-height: 45px;
+	text-align: center;
+	/*margin-top: 46px;*/
+	margin-bottom: 0px;
+}
+
+.copyright p{
+	margin: 0 0 0 0;
+}
+
+/* PORTFOLIO PAGE*/
+
+.portfolio-banner{
+	margin-top: 0px;
+	background-image: url("../images/portfolio1.jpg");
+	/*copyright free image obtained from Sergei Akulich of unsplash.com*/
+	text-align: center;
+	color: #fff;
+	background-repeat: none;
+	background-size: 100% 100%;
+	width: 100%;
+	min-height: 300px;
+}
+
+.portfolio-hero{
+	background: rgba(0,0,0,0.5);
+	min-height: 300px;
+}
+
+.portfolio-hero h2{
+	margin-top: 75px;
+}
+
+.sustainable{
+	background-image: url("../images/sustainable.jpg");	
+	/* copyright free image - unsplash*/
+}
+
+.videoOnly{
+	background-image: url("../images/videoOnly.jpg");
+	/* copyright free image - unsplash*/	
+}
+
+.cvvc{
+	background-image: url("../images/cvvc.jpg");
+	/*MasterTux image from pixabay */
+}
+
+.formbuddy{
+	background-image: url("../images/formbuddy.png");
+	/* copyright free image - pixabay*/
+}
+
+.orderAhead{
+	background-image: url("../images/orderAhead.png");
+	height: 600px;
+	/* screen-shot of the project*/
+}
+
+.orthosurgeon{
+	background-image: url("../images/orthosurgeon.jpg");
+	height: 600px;
+	/* copyright free image - pixabay*/
+}
+
+.idea{
+	background-image: url("../images/idea.jpg");
+	/* purchased image */
+}
+
+.events{
+	background-image: url("../images/events.jpg");
+	/* copyright free image from sasint image - pixabay */
+}
+
+.calculator{
+	background-image: url("../images/calculator.jpg");
+	/* copyright free image - pixabay*/
+}
+
+.portfolio-image {
+    padding-bottom : 30%;
+    margin-top:0.2%;
+    margin-bottom: 0.2%;
+    background-position:center center;
+    background-repeat:no-repeat;
+    background-size: cover;
+    background-size: 100% 100%;  
+    min-height: 300px;
+}
+
+.portfolio-prj-heading{
+	margin-bottom: 60px;
+	margin-top: 60px;
+	text-align: center;
+	font-style: bold;
+	color: #160359;
+}
+
+.project-heading{
+	font-size: 1.2em;
+	font-weight: bolder;
+}
+
+.portfolioPage-learn-button{
+	background-color: transparent;
+	border: 2px solid #3e82d4;
+	color: #3e82d4;
+	border-radius: 5px;
+	padding: 5px;
+	text-align: center;
+}
+
+.portfolioPage-learn-button:hover{
+	color: black;
+	border: 2px solid black;
+}
+
+.nextLevel{
+	background-image: url("../images/nextLevel.jpg");
+	/* copyright free image from ahmad-dirini - unsplash*/
+	background-size: cover;
+    background-size: 100% 100%;  
+    min-height: 300px;
+
+}
+
+.nextLevel-hero{
+	background: rgba(0,0,0,0.6);
+	min-height: 300px;
+
+}
+.nextLevel-content{
+	padding-top: 100px;
+	color: white;
+	text-align: center;
+	font-size: 1.2em;
+}
+
+.nextLevel-content button{
+	background-color: transparent;
+	border: 2px solid white;
+	border-radius: 5px;
+	padding: 5px;
+}
+
+/* SERVICES PAGE */
+
+.servicesPage-banner{
+	margin-top: 0px;
+	background-image: url("../images/servicesPage.jpg");
+	text-align: center;
+	color: #fff;
+	background-repeat: none;
+	background-size: 100% 100%;
+	width: 100%;
+	min-height: 300px;
+}
+
+.servicesPage-heading {
+	background: rgba(0,0,0,0.5);
+	min-height: 300px;
+}
+
+.servicesPage-heading h2{
+	padding-top: 50px;
+}
+
+.service-title::after{
+    display: block;
+    content: " ";
+    margin: .7em auto 0;
+    width: 3em;
+    border-bottom: solid 3px #ec4d40;
+    /*opacity: .5;*/
+}
+
+
+.services-content{
+	padding: 20px;
+	margin: 15px;
+}
+
+.servicesPage-learn-button{
+	background-color: transparent;
+	border: 2px solid #ec4d40;
+	color: #ec4d40;
+	border-radius: 5px;
+	padding: 5px;
+	text-align: center;
+}
+
+.servicesPage-learn-button:hover{
+	color: black;
+	border: 2px solid black;
+}
+
